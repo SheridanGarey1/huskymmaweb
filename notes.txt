@@ -1,0 +1,22 @@
+--------------------
+    Flexbox Notes
+--------------------
+1. Justify items vs Align items
+    Justify is for horizantal alignment
+    Align is for vertical alignment
+Options for Justify items
+    center
+    flex-start
+    flex-end
+    space-around
+    space-between
+
+Options for Align items
+    center
+    flex-start   (top)
+    flex-end      (bottom)
+    stretch
+    baseline
+
+
+
