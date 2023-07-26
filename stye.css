@@ -6,13 +6,22 @@
     src: url(fonts/Montserrat-Light.ttf);
     font-family: Montserrat-light;
 }
+@font-face {
+    font-family: Ubuntu-light;
+    src: url(fonts/Ubuntu-Light.ttf);
+}
+@font-face {
+    font-family: Ubuntu-medium;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat-light;
+    font-family: Ubuntu-light;
     background-color: white;
     line-height: 1.5rem;
+    font-size: 21px;
 }
 .banner img{
     height: 13em;
@@ -41,7 +50,7 @@
     background-color: rgb(51, 0, 111);
 }
 .navbar a{
-    font-family: Montserrat-Medium;
+    font-family: Ubuntu-medium;
     float: left;
     text-align: center;
     padding: 14px 16px;
@@ -60,8 +69,8 @@
     overflow: hidden;
 }
 .dropdown .dropbtn{
-    font-family: Montserrat-Medium;
-    font-size: 16px;
+    font-family: Ubuntu-medium;
+    font-size: 21px;
     border: none;
     outline: none;
     text-align: center;
@@ -83,7 +92,6 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a{
     float: none;
     color: white;
@@ -99,20 +107,6 @@
 .dropdown:hover .dropdown-content{
     display: block;
 } 
-.page-header{
-    text-decoration: none;
-    color: rgb(51, 0, 111);;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Montserrat-Medium;
-    margin: 4px;
-    font-size: 3rem;
-}
-.page-header a{
-    text-decoration: none;
-}
 .center-title{
     text-align: center;
 }
@@ -121,42 +115,33 @@
     padding-right: 2rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70rem;
+    max-width: 70em;
 }
 .title{
     margin-top: 10px;
     margin-bottom: 10px; 
     padding-top: 10px;
 }
-.instructor1 img, .instructor2 img, .instructor3 img{
-    width: 20rem;
-    
-}
-.main-container .instructor {
-    text-align: center;
 
+.instructor1 img, .instructor2 img, .instructor3 img{
+    width: 17rem;
+    
 }
 .in-container1, .in-container2{
     display: flex;
     align-content: center;
-    margin-left: 10em;
-    margin-right: 10em;
     margin-top: 3em;
     margin-bottom: 3em;
 }
 .in-text{
     margin-top: 4em;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-.in-container1 .instructor2{
-    border-left: solid black;
-    border-right: solid black;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 .in-container3{
-    height: 100px;
-
+    padding-bottom: 3em;
 }
+
 .footer-container div{
     padding: 1rem;
     width: auto;
@@ -208,7 +193,6 @@
     padding-top: 3em;
 }
 .Class {
-   height: 100px;
    padding: 2em;
    line-height: 2em;
 }
@@ -218,4 +202,8 @@
 .center{
     text-align: center;
     
+}
+.class-container div{
+    display: flex;
+    align-content: center;
 }
