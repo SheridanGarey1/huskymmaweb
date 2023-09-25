@@ -157,6 +157,14 @@
     height: 100px;
 
 }
+.equip{
+    color: rgb(51, 0, 111);
+    text-decoration: none;
+    
+}
+.equip a:hover{
+    color: hsl(0, 0%, 40%);
+}
 .footer-container div{
     padding: 1rem;
     width: auto;
