@@ -112,11 +112,11 @@
     text-align: center;
 }
 .main-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 70em;
+    max-width: 65em;
 }
 .title{
     margin-top: 10px;
@@ -129,7 +129,7 @@
     
 }
 .instructor{
-    max-width: 50em;
+    max-width: 45em;
     margin-left: auto;
     margin-right: auto;
     
@@ -226,4 +226,13 @@
     display: flex;
     justify-content: center;
     padding-bottom: 2em;
+}
+.newsletter{
+    color:rgb(58, 35, 109);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.newsletter a{
+    text-decoration: none;
 }
