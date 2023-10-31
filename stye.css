@@ -111,6 +111,10 @@
 .center-title{
     text-align: center;
 }
+.instrutor-title{
+    text-align: center;
+    padding-top: 2em;
+}
 .main-container {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -125,8 +129,8 @@
 }
 
 .instructor1 img, .instructor2 img{
-    width: 13rem;
-    
+    width: 15rem;
+    margin-bottom: 15px; 
 }
 .instructor{
     max-width: 45em;
@@ -136,13 +140,16 @@
 }
 .in-container1, .in-container2{
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 3em;
     margin-bottom: 3em;
+    
 }
 .in-text{
     padding-left: 2em;
     padding-right: 2em;
+    text-align: center;
 }
 .in-container3{
     padding-bottom: 3em;
