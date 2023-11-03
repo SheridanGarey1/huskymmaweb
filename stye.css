@@ -116,8 +116,8 @@
     padding-top: 2em;
 }
 .main-container {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 65em;
@@ -133,7 +133,7 @@
     margin-bottom: 15px; 
 }
 .instructor{
-    max-width: 45em;
+    max-width: 52em;
     margin-left: auto;
     margin-right: auto;
     
@@ -186,15 +186,15 @@
     color: black;
     text-decoration: none;
 }
-.links a:hover{
+.links a:hover, .int-title a:hover{
     color: hsl(0, 0%, 40%);
 }
 .int-title a{
     text-decoration: none;
-    color: rgb(51, 0, 111);;
+    color: rgb(79, 0, 170);;
 }
 .UWschedule img{
-    width: 55%;
+    width: 92%;
 }
 .UWschedule{
     margin-top: 3rem;
