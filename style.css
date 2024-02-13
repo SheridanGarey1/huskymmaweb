@@ -24,8 +24,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 9%;
-    background: rgba(0,0,0,0.85);
+    padding: 5px 4%;
+    background: rgba(0,0,0,0.8);
 }
 
 .nav_links{
@@ -279,6 +279,7 @@ button{
     background-size:cover;
     background-repeat: repeat;
     height: 117vh;
+    background-color: black;
     
 }
 .giga_container1{
@@ -286,6 +287,7 @@ button{
     background-size:cover;
     background-repeat: repeat;
     height: 100vh;
+    background-color: black;
 }
 .giga_container2{
     background: rgb(2,0,36);

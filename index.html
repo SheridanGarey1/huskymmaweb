@@ -60,6 +60,7 @@
             <div class="main-container">
 
                 
+                <div class="title"><p>Welcome to UW MMA!</p></div>
                 
                 <div class="slideShow">
 
@@ -109,6 +110,8 @@
                     let i;
                     let slides = document.getElementsByClassName("mySlides");
                     let dots = document.getElementsByClassName("dot");
+                    const date = new Date();
+                    console.log(date.getDay());
                     if (n > slides.length) {slideIndex = 1}
                     if (n < 1) {slideIndex = slides.length}
                     for (i = 0; i < slides.length; i++) {
@@ -117,12 +120,13 @@
                     for (i = 0; i < dots.length; i++) {
                     dots[i].className = dots[i].className.replace(" active", "");
                     }
+
                     slides[slideIndex-1].style.display = "block";
                     dots[slideIndex-1].className += " active";
-} 
+                    } 
                 </script>
 
-                <div class="title"><p>Welcome to UW MMA!</p></div>
+                <div class="title"><p>What We Do</p></div>
                 
                
                 
@@ -164,7 +168,7 @@
                 <div class="title"><p> Connect with us:</p></div>
                 <div class="footer-links">
                         <div><a href="https://discord.gg/XwVteEMqcy"><i class="fa-brands fa-discord fa-1x"></i></a></div>
-                        <div><a href="https://www.instagram.com/uwhuskymma/" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a></div>
+                        <div><a href="https://www.instagram.com/husky_mma?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a></div>
                 </div>
         </footer>
 
