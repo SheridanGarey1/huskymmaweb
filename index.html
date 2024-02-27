@@ -60,6 +60,7 @@
             <div class="main-container">
 
                 
+                <div class="title"><p>Welcome to UW MMA!</p></div>
                 
                 <div class="slideShow">
 
@@ -109,6 +110,8 @@
                     let i;
                     let slides = document.getElementsByClassName("mySlides");
                     let dots = document.getElementsByClassName("dot");
+                    const date = new Date();
+                    console.log(date.getDay());
                     if (n > slides.length) {slideIndex = 1}
                     if (n < 1) {slideIndex = slides.length}
                     for (i = 0; i < slides.length; i++) {
@@ -117,25 +120,32 @@
                     for (i = 0; i < dots.length; i++) {
                     dots[i].className = dots[i].className.replace(" active", "");
                     }
+
                     slides[slideIndex-1].style.display = "block";
                     dots[slideIndex-1].className += " active";
-} 
+                    } 
                 </script>
 
-                <div class="title"><p>Welcome to UW MMA!</p></div>
+                <div class="title"><p>What We Do</p></div>
                 
                
                 
-                <div class="norm-text"><p>  We are a student run club at the University of Washington teaching mixed martial arts. 
-                    We are primarily focused on the different skills necessary to participate in combat sporting events. We 
-                    practice everything from wrestling to Muay Thai in a safe, practical environment in the IMA. 
-                    The team at Husky MMA is dedicated to building up our member's physical and mental capabilities. Come train with us today!
+                <div class="norm-text"><p>  We are a student run MMA team seeking the growth of all martial arts at the University of
+                     Washington. Coming from a Bruce Lee lineage, it is part of our mission to separate martial arts from the 
+                     institutions they are attached to and liberate the art that lies beneath. Although not affiliated, many 
+                     of our members are students at the University of Washington. We are focused on developing the different 
+                     skills necessary to participate in combat sports. We practice everything from wrestling to Muay Thai in a 
+                     safe, practical environment in the IMA. The team at Husky MMA is dedicated to building up our member's 
+                     physical and mental capabilities. Come train with us today!
+
+
+
                     </p></div>
                 <div> 
                     
                 </div>
 
-                <div class="title"><p>Requirments</p></div>
+                <div class="title"><p>Requirements</p></div>
                 <div><p class="norm-text">This club is open to all students at UW, no previous experience or gear required. If you're 
                     not a student at UW, you are more than welcome to come train with us as we'd love to have you. All classes are free 
                     and members pay no club dues.</p></div>
@@ -164,7 +174,7 @@
                 <div class="title"><p> Connect with us:</p></div>
                 <div class="footer-links">
                         <div><a href="https://discord.gg/XwVteEMqcy"><i class="fa-brands fa-discord fa-1x"></i></a></div>
-                        <div><a href="https://www.instagram.com/uwhuskymma/" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a></div>
+                        <div><a href="https://www.instagram.com/husky_mma?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram fa-1x"></i></a></div>
                 </div>
         </footer>
 
